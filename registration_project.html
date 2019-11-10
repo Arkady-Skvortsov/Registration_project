@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Project</title>
+	<meta charset="utf-8" />
+	<!-- Font-awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+	<!-- CSS  -->
+    <link rel="stylesheet" type="text/css" href="registration_project.css" />
+</head>
+<body>
+	<header>
+		<span>Registration Project</span>
+		<i class="fas fa-user"></i>
+		<div class="my-cabin">
+			<p id="t">Мой кабинет</p>
+		</div>	
+	</header>
+
+	<div class="form">
+		<form method="post" action="" name="Form">
+			<label for="Name" id="l1">Имя</label><input type="text" name="Name" id="Name" placeholder="Введите ваше имя" />
+			<label for="Familia" id="l2">Фамилия</label><input type="text" name="Familia" id="Familia" placeholder="Введите вашу фамилию" />
+			<label for="Age" id="l3">Возраст</label><input type="number" name="Age" id="Age" placeholder="Введите свой возраст" />
+			<label for="Password" id="l4">Пароль</label><input type="password" name="Password" id="Password" placeholder="Введите свой пароль" />
+			<label for="Repass" id="l5">Подтверждение пароля</label><input type="password" name="Repass" id="Repass" placeholder="Подтвердите свой пароль" />
+
+			<input type="button" name="sub" id="sub" value="Отправить" />
+		</form>
+	</div>
+
+	<div class="happy-news">
+		<p id="p">Вы зарегистрировались</p>
+	</div>
+	
+	<div class="information-block">
+		<div class="profile-main">
+		    <span id="s">Мои данные</span>	 
+		</div>
+		<div class="dannie-o-polzovatile">
+		    <span id="N">Имя:</span><p id="name">Нет ваших данных</p>
+		    <span id="F">Фамилия:</span><p id="surname">Нет ваших данных</p>
+		    <span id="A">Возраст:</span><p id="age">Нет ваших данных</p>
+		    <span id="P">Пароль:</span><p id="password">Нет ваших данных</p> 
+		</div>
+		<div class="delete-btn">
+			<span id="dlt">Очистить данные</span>
+		</div>		
+	</div>
+
+	<div class="name-error-block">
+		<span class="oglav"></span>
+	</div>
+
+	<div class="surname-error-block">
+		<span class="oglav2"></span>
+	</div>
+
+	<div class="age-error-block">
+		<span class="oglav3"></span>
+	</div>
+
+	<div class="password-error-block">
+		<span class="oglav4"></span>
+	</div>
+
+	<div class="Repass-error-block">
+		<span class="oglav5"></span>
+	</div>
+
+    <script src="registration_project.js"></script>
+</body>
+</html>

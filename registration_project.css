@@ -1,0 +1,541 @@
+ @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Oswald&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+
+        html, body {
+        	background-image: url('img/Uncharted_4.jpg');
+        }
+
+        header {
+        	position: absolute;
+        	height: 100px;
+        	background-color: black;
+        	width: 100%;
+        	left: 0;
+        	top: 0;
+        	cursor: pointer;
+        	border-bottom: 9px solid white;
+        	transition: 500ms ease;
+        	-o-transition: 500ms ease;
+        	-webkit-transition: 500ms ease;
+        	-mozila-transition: 500ms ease;
+        }
+
+        header:hover {
+        	border-bottom: 9px solid red;
+        }
+
+        header span {
+        	font-size: 50px;
+        	font-family: 'Filla One', sans-serif;
+        	padding-left: 530px;
+        	color: yellow;
+        	cursor: pointer;
+        	font-weight: bold;
+        	transition: 900ms ease;
+        	-o-transition: 900ms ease;
+        	-mozila-transition: 900ms ease;
+        	-webkit-transition: 900ms ease;
+        }
+
+        header span:hover {
+        	text-shadow: 0 0 10px yellow;
+        }
+
+        header .my-cabin {
+        	height: 100px;
+            position: absolute;
+        	width: 200px;
+        	cursor: pointer;
+        	background-color: black;
+        	margin-left: 1150px;
+        	margin-top: -60px;
+        	transition: 900ms ease;
+        	-o-transition: 900ms ease;
+        	-webkit-transition: 900ms ease;
+        	-mozila-transition: 900ms ease;
+        }
+
+        header .my-cabin:hover {
+        	box-shadow: 0 0 25px white;
+        }
+
+        header .fas {
+        	font-size: 30px;
+        	margin-left: 400px;
+        	margin-top: 30px;
+            color: white;
+            cursor: pointer;
+        	position: absolute;
+        }
+
+        header .fas.f {
+        	color: blue;
+        }
+
+        header .fas.f2 {
+        	color: red;
+        }
+
+        header .my-cabin #t {
+        	font-size: 40px;
+        	font-family: 'Oswald', sans-serif;
+        	text-align: center;
+        	color: white;
+        	cursor: pointer;
+        	margin-top: 15px;
+        	transition: 600ms ease;
+        	-o-transition: 600ms ease;
+        	-mozila-transition: 600ms ease;
+        	-webkit-transition: 600ms ease;
+        } 
+
+        header .my-cabin #t:hover {
+        	transform: translateY(20px);
+        }
+
+        .form {
+        	position: absolute;
+        	height: 550px;
+        	width: 500px;
+        	background: url('img/blackground.jpg');
+        	margin-top: 200px;
+        	margin-left: 250px;
+        	border: 2px solid black;
+        }
+
+        .form form #l1, #l2, #l3, #l4, #l5 {
+        	color: white;
+        	font-size: 40px;
+        	font-weight: bold;
+        	font-family: 'Oswald', sans-serif;
+        }
+
+        .form form #l1 {
+        	padding-left: 20px;
+        	margin-top: -40px;
+        }
+
+        .form form #Name {
+            height: 45px;
+            width: 350px;
+            cursor: pointer;
+            margin-top: 20px;
+            margin-left: 45px;
+            border-radius: 5px;
+            font-size: 25px;
+            font-family: 'Oswald', sans-serif;            
+        }
+
+        .form form #Familia, #Age, #Password, #Repass {
+        	margin-left: 40px;
+        	cursor: pointer;
+        }
+
+        .form form #l2 {
+        	padding-left: 20px;
+        	margin-top: -40px;
+        }
+
+        .form form #Familia {
+        	height: 45px;
+        	width: 250px;
+        	margin-top: 40px;
+        	border-radius: 5px;
+        	font-size: 25px;
+        	font-family: 'Oswald', sans-serif;
+        }
+        
+        .form form #l3 {
+            padding-left: 20px;
+            margin-top: -50px;
+        }
+
+        .form form #Age {
+        	height: 45px;
+        	width: 300px;
+        	margin-top: 50px;
+        	border-radius: 5px;
+        	font-size: 25px;
+        	font-family: 'Oswald', sans-serif;
+        }
+
+        .form form #l4 {
+        	padding-left: 20px;
+        	margin-top: -80px;
+        }
+
+        .form form #Password {
+        	height: 45px;
+        	width: 300px;
+        	margin-top: -80px;
+        	border-radius: 5px;
+        	font-size: 25px;
+        	font-family: 'Oswald', sans-serif;
+        }
+
+        .form form #l5 {
+        	padding-left: 20px;
+        	margin-top: -100px;
+        }
+
+        .form form #Repass {
+        	height: 45px;
+        	width: 300px;
+        	margin-top: 10px;
+        	border-radius: 5px;
+        	font-size: 25px;
+        	font-family: 'Oswald', sans-serif;
+        }
+
+        .form form #sub {
+        	height: 50px;
+        	width: 200px;
+        	background-color: orange;
+        	opacity: .95;
+        	cursor: pointer;
+        	margin-left: 150px;
+        	font-size: 25px;
+        	font-family: 'Oswald', sans-serif;
+        	margin-top: 20px;
+        	transition: 800ms ease;
+        	-o-transition: 800ms ease;
+        	-mozila-transition: 800ms ease;
+        	-webkit-transition: 800ms ease;
+        }
+
+        .form form #sub:hover {
+        	transform: scale(.9);
+        }
+
+        .form form #sub:active {
+        	transform: scale(.6);
+        }
+
+        .information-block {
+        	height: 200px;
+        	width: 300px;
+        	position: absolute;
+        	margin-top: 105px;
+        	margin-left: 1100px;
+        	background-color: white;
+        	border-bottom-right-radius: 20px;
+        	border-bottom-left-radius: 20px;
+        	display: none;
+        }
+
+        .information-block.show {
+        	display: block;
+        }
+
+
+        .information-block .profile-main {
+        	height: 50px;
+        	width: 300px;
+        	background-color: blue;
+        	cursor: pointer;
+        	position: absolute;
+        	top: 0;
+        	transition: 700ms ease;
+        	-o-transition: 700ms ease;
+        	-webkit-transition: 700ms ease;
+        	-mozila-transition: 700ms ease;
+        }
+
+        .information-block .profile-main:hover {
+        	background-color: orange;
+        }
+
+        .information-block .profile-main #s {
+        	font-size: 25px;
+        	font-family: 'Baloo Bhai', cursive;
+        	position: absolute;
+        	padding-left: 90px;
+        	margin-top: 5px;
+        	transition: 700ms ease;
+        	-o-transition: 700ms ease;
+        	-webkit-transition: 700ms ease;
+        	-mozila-transition: 700ms ease;
+        }
+
+        .information-block .profile-main #s:hover {
+        	color: white;
+        }
+
+        .information-block .dannie-o-polzovatile {
+        	margin-top: 50px;
+            height: 150px;
+            width: 300px;
+            position: absolute;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            background-color: white;
+        }
+
+        .information-block .dannie-o-polzovatile #N {
+        	font-size: 20px;
+        	font-family: 'Baloo Bhai', cursive;
+        	margin-top: 10px;
+        	margin-left: 10px;
+        	position: absolute;
+        } 
+
+        .information-block .dannie-o-polzovatile #name {
+        	font-size: 20px;
+        	font-family: 'Oswald', sans-serif;
+        	margin-top: 10px;
+        	margin-left: 60px;
+        	position: absolute;
+        }
+
+        .information-block .dannie-o-polzovatile #F {
+        	font-size: 20px;
+        	font-family: 'Baloo Bhai', cursive;
+        	margin-top: 30px;
+        	margin-left: 10px;
+        	position: absolute;
+        }
+
+        .information-block .dannie-o-polzovatile #surname {
+        	font-size: 20px;
+        	font-family: 'Oswald', sans-serif;
+        	margin-top: 30px;
+        	margin-left: 120px;
+        	position: absolute;
+        }
+
+        .information-block .dannie-o-polzovatile #A {
+        	font-size: 20px;
+        	font-family: 'Baloo Bhai', cursive;
+        	margin-top: 50px;
+        	margin-left: 10px;
+        	position: absolute;
+        }
+
+        .information-block .dannie-o-polzovatile #age {
+        	font-size: 20px;
+        	font-family: 'Oswald', sans-serif;
+        	margin-left: 100px;
+        	margin-top: 50px;
+        	position: absolute;
+        }
+
+        .information-block .dannie-o-polzovatile #P {
+        	font-size: 20px;
+        	font-family: 'Baloo Bhai', cursive;
+        	margin-left: 10px;
+        	margin-top: 70px;
+        	position: absolute;
+        }
+
+        .information-block .dannie-o-polzovatile #password {
+        	font-size: 20px;
+        	font-family: 'Oswald', sans-serif;
+        	margin-top: 70px;
+        	margin-left: 100px;
+        	position: absolute;
+        }
+
+        .name-error-block {
+           height: 70px;
+           width: 300px;
+           position: absolute;
+           margin-left: 780px;
+           margin-top: 200px;
+           background-color: red;
+           cursor: pointer;
+           display: none;
+           transition: 800ms ease;
+           -o-transition: 800ms ease;
+           -mozila-transition: 800ms ease;
+           -webkit-transition: 800ms ease;
+        }	
+
+        .name-error-block.b1 {
+        	display: block;
+        }
+
+        .name-error-block:hover {
+        	opacity: .3;
+        	transform: skewX(2deg);
+        }
+
+        .name-error-block span {
+        	font-size: 25px;
+        	font-family: 'Baloo Bhai', cursive;
+        	padding-left: 20px;
+            position: absolute;
+            margin-top: 10px; 
+        }
+
+        .surname-error-block {
+        	height: 70px;
+        	width: 300px;
+        	position: absolute;
+        	background-color: red;
+        	margin-left: 780px;
+        	margin-top: 300px;
+        	cursor: pointer;
+        	display: none;
+        	transition: 800ms ease;
+        	-o-transition: 800ms ease;
+        	-mozila-transition: 800ms ease;
+        	-webkit-transition: 800ms ease;
+        }
+
+        .surname-error-block.b2 {
+        	display: block;
+        }
+
+        .surname-error-block:hover {
+        	opacity: .3;
+        	transform: skewX(2deg);
+        }
+
+        .surname-error-block span {
+        	font-size: 25px;
+        	font-family: 'Baloo Bhai', cursive;
+        	padding-left: 20px;
+        	margin-top: 10px;
+        	position: absolute;
+        }
+
+        .age-error-block {
+        	height: 70px;
+        	width: 300px;
+        	position: absolute;
+        	background-color: red;
+        	margin-left: 780px;
+        	margin-top: 390px;
+        	cursor: pointer;
+        	display: none;
+        	transition: 800ms ease;
+        	-o-transition: 800ms ease;
+        	-mozila-transition: 800ms ease;
+        	-webkit-transition: 800ms ease;
+        }
+
+        .age-error-block.b3 {
+        	display: block;
+        }
+
+        .age-error-block:hover {
+        	opacity: .3;
+        	transform: skewX(2deg);
+        }
+        
+        .age-error-block span {
+        	font-size: 25px;
+        	font-family: 'Baloo Bhai', cursive;
+        	padding-left: 20px;
+        	margin-top: 10px;
+        	position: absolute;
+        }
+
+        .password-error-block {
+        	height: 70px;
+        	width: 300px;
+        	position: absolute;
+        	background-color: red;
+        	margin-top: 480px;
+        	margin-left: 780px;
+        	cursor: pointer;
+        	display: none;
+        	transition: 800ms ease;
+        	-o-transition: 800ms ease;
+        	-mozila-transition: 800ms ease;
+        	-webkit-transition: 800ms ease;
+        }
+
+        .password-error-block.b4 {
+        	display: block;
+        }
+
+        .password-error-block span {
+        	font-size: 25px;
+        	font-family: 'Baloo Bhai', cursive;
+        	padding-left: 20px;
+        	margin-top: 10px;
+        	position: absolute;
+        }
+
+        .password-error-block:hover {
+        	opacity: .3;
+        	transform: skewX(2deg);
+        }
+
+        .Repass-error-block {
+        	height: 70px;
+        	width: 300px;
+        	position: absolute;
+        	background-color: red;
+        	margin-top: 610px;
+        	margin-left: 780px;
+        	cursor: pointer;
+        	display: none;
+        	transition: 800ms ease;
+        	-o-transition: 800ms ease;
+        	-mozila-transition: 800ms ease;
+        	-webkit-transition: 800ms ease;
+        }
+
+        .Repass-error-block.b5 {
+        	display: block;
+        }
+
+        .Repass-error-block:hover {
+        	opacity: .3;
+        	transform: skewX(2deg);
+        }
+
+        .Repass-error-block span {
+        	font-size: 25px;
+        	font-family: 'Baloo Bhai', cursive;
+        	padding-left: 20px;
+        	margin-top: 10px;
+        	position: absolute;
+        }
+
+        .happy-news {
+            height: 50px;
+            width: 200px;
+            position: absolute;
+            background-color: green;
+            cursor: pointer;
+            margin-top: -60px;
+            margin-left: 5px;
+            transition: 900ms ease;
+            -o-transition: 900ms ease;
+            -webkit-transition: 900ms ease;
+            -mozila-transition: 900ms ease;
+        }
+
+        .happy-news #p {
+        	font-size: 16px;
+        	font-family: 'Baloo Bhai', cursive;
+        	padding-left: 5px;
+        	margin-top: 10px;
+        	position: absolute;
+        }
+
+        .happy-news.congr {
+            margin-top: 10px;
+        }
+
+        .information-block .delete-btn {
+        	height: 30px;
+        	width: 300px;
+        	margin-top: 170px;
+        	position: absolute;
+        	background-color: blue;
+        	cursor: pointer;
+        	border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+        .information-block .delete-btn #dlt {
+        	font-size: 15px;
+        	font-family: 'Baloo Bhai', cursive;
+            padding-left: 95px;
+            margin-top: 5px;
+            position: absolute;
+        }
